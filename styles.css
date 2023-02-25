@@ -4,11 +4,13 @@
 header {
     background-color:#1F2937;
     width:100%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header a:link {
     font-size:18px;
     color:#E5E7EB;
+    text-decoration:none;
 }
 
 .navbar {
@@ -27,10 +29,13 @@ header a:link {
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
+    font-family: 'Yeseva One', cursive;
 }
 
 .subtext {
     font-size:18px;
+    letter-spacing:2px;
+    font-family: 'Josefin Sans', sans-serif;
     color:#E5E7EB;
 }
 
@@ -47,6 +52,7 @@ header a:link {
 .awesome-text {
     width: 50%;
     height:50%;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -60,4 +66,33 @@ header a:link {
 .random-information {
     background-color:white;
     color:#1F2937;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:center;
+    padding:3em;
+}
+
+.random-information-box {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+}
+.random-box {
+    width:25%;
+    border-radius:25px;
+    border: solid 2px #3882f6;
+    height:20%;
+    width:auto;
+}
+
+
+
+.quote {
+    background-color:#E5E7EB;
+    display:flex;
+    width:100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#1F2937;
+    
 }
