@@ -1,0 +1,40 @@
+
+/*NAVBAR HEADER*/
+
+header {
+    background-color:#1F2937;
+}
+
+header a:link {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.navbar {
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:center;
+    background-color:#1F2937;
+    wdith:100%;
+
+}
+
+
+.hero-text {
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.subtext {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+/*MAIN BODY*/
+
+.awesome-website {
+    background-color:#1F2937;
+    color:#E5E7EB;
+}
