@@ -3,6 +3,7 @@
 
 header {
     background-color:#1F2937;
+    width:100%;
 }
 
 header a:link {
@@ -16,7 +17,8 @@ header a:link {
     flex-wrap:wrap;
     align-content:center;
     background-color:#1F2937;
-    wdith:100%;
+    width:100%;
+    height:5em;
 
 }
 
@@ -35,6 +37,27 @@ header a:link {
 /*MAIN BODY*/
 
 .awesome-website {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;    
     background-color:#1F2937;
     color:#E5E7EB;
+}
+
+.awesome-text {
+    width: 50%;
+    height:50%;
+
+
+}
+
+.awesome-image {
+    width:50%;
+    height:50%;
+
+}
+
+.random-information {
+    background-color:white;
+    color:#1F2937;
 }
