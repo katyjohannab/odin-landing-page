@@ -111,14 +111,56 @@ header a:link:hover {
     padding-right:9em;
 
 }
-.random-box {
+.random-box-one {
     width:25%;
     border-radius:25px;
     border: solid 2px #3882f6;
     height:100px;
     width:100px;
     padding:10px;
+    object-fit:contain;
+    background-image:url("sea.jpg");
+    background-size:cover;
     }
+
+.random-box-two {
+        width:25%;
+        border-radius:25px;
+        border: solid 2px #3882f6;
+        height:100px;
+        width:100px;
+        padding:10px;
+        object-fit:contain;
+        background-image:url("cliff.jpg");
+        background-size:cover;
+        }
+
+.random-box-three {
+            width:25%;
+            border-radius:25px;
+            border: solid 2px #3882f6;
+            height:100px;
+            width:100px;
+            padding:10px;
+            object-fit:contain;
+            background-image:url("coffee.jpg");
+            background-size:cover;
+            }
+
+.random-box-four {
+                width:25%;
+                border-radius:25px;
+                border: solid 2px #3882f6;
+                height:100px;
+                width:100px;
+                padding:10px;
+                object-fit:contain;
+                background-image:url("candle.jpg");
+                background-size:cover;
+                }
+
+
+
 .random-text {
     width:25%;
     border:solid 2px white;
@@ -165,7 +207,7 @@ footer {
 }
 .flex-footer {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     column-gap:0;
     gap:0;
     margin:7em;
@@ -174,11 +216,26 @@ footer {
     text-align:center;
     color:#F9FAF8;
     font-family:'Josefin Sans', sans-serif;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
 }
 
 .footer-child {
     margin-left:3em;
     margin-right:3em;
+    justify-content:flex-start;
+    
+}
+
+.footer-child-button {
+    margin-left:3em;
+    margin-right:3em;
+    margin-top:3em;
+    margin-bottom:3em;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
     
 }
 /*BUTTONS*/
