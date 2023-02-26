@@ -180,8 +180,14 @@ header a:link:hover {
     width:100%;
     height:300px;
     text-align:center;
+   
     
     
+}
+
+.quote-child {
+    flex-basis:auto;
+    width:30%;
 }
 
 blockquote {
@@ -189,23 +195,23 @@ blockquote {
     font-style:italic;
     color:#1F2937;
     font-size:2em;
-    font: weight 200pc;
+    font-weight:200;
 }
 
 figcaption {
     font-family: 'Josefin Sans', sans-serif;
-    font-style:italic;
+    font-weight:bold;
+    text-transform:uppercase;
     color:#1F2937;
     font-size:1em;
-    font: weight 200pc;
-}
+    }
 
-/*FOOTER*/
+/*ACTION*/
 
-footer {
+.footer-action {
     background-color:white;
 }
-.flex-footer {
+.flex-footer-action {
     display:flex;
     flex-direction:row;
     column-gap:0;
@@ -221,7 +227,7 @@ footer {
     justify-content:center;
 }
 
-.footer-child {
+.footer-child-action {
     margin-left:3em;
     margin-right:3em;
     justify-content:flex-start;
@@ -238,6 +244,26 @@ footer {
     align-content:center;
     
 }
+
+/*FOOTER*/
+
+footer {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content:center;
+    width:100%;
+    height:5em;
+    column-gap:1em;
+    align-items:flex-start;
+    background-color:#1F2937;
+    width:100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#F9FAF8;
+}
+
+
 /*BUTTONS*/
 
 .signup-main {
@@ -271,6 +297,12 @@ footer {
     letter-spacing:0.1em;
     font-size:1em;
     padding:0.5em;
+}
+
+.signup-footer:hover {
+    border-color:#F9FAF8;
+    background-color:#3882f6;
+    color:#F9FAF8;
 }
 
 
