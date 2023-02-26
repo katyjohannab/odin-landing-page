@@ -13,6 +13,10 @@ header a:link {
     text-decoration:none;
 }
 
+header a:link:hover {
+    color:#3882f6;
+}
+
 .navbar {
     display:inline-flex;
     flex-direction:row-reverse;
@@ -28,12 +32,22 @@ header a:link {
 
 .header-logo {
     order: 1;
-    align-self:flex-start;
     gap: 400px;
+    width: calc(50% - 2em);
+    margin: 2em;
+    color:#F9FAF8;
+    font-family: 'Yeseva One'; cursive;
 }
 
+.header-links {
+    margin: 1em;
+
+    
+}
+
+
 .hero-text {
-    font-size:48px;
+    font-size:65px;
     font-weight:bolder;
     color:#F9FAF8;
     font-family: 'Yeseva One', cursive;
@@ -54,19 +68,21 @@ header a:link {
     flex-wrap:wrap;    
     background-color:#1F2937;
     color:#E5E7EB;
+    padding:2em;
 }
 
 .awesome-text {
     width: 50%;
     height:50%;
     font-family: 'Josefin Sans', sans-serif;
+     
 
 
 }
 
 .awesome-image {
-    width:50%;
-    height:50%;
+    flex-grow:3;
+    flex-basis:600px;
 
 }
 
@@ -84,6 +100,8 @@ header a:link {
     justify-content:center;
     align-items:center;
     column-gap:2em;
+    padding-left:9em;
+    padding-right:9em;
 
 }
 .random-box {
@@ -91,20 +109,64 @@ header a:link {
     border-radius:25px;
     border: solid 2px #3882f6;
     height:100px;
+    width:100px;
     padding:10px;
     }
+.random-text {
+    width:25%;
+    border:solid 2px white;
+    height:100px;
+    width:100px;
+    padding:10px;
+}
 
 
 
 .quote {
     background-color:#E5E7EB;
     display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
     width:100%;
-    font-family: 'Josefin Sans', sans-serif;
-    color:#1F2937;
+    height:300px;
+    text-align:center;
+    
     
 }
 
+blockquote {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style:italic;
+    color:#1F2937;
+    font-size:2em;
+    font: weight 200pc;
+
+}
+
+/*FOOTER*/
+
+footer {
+    background-color:white;
+}
+.flex-footer {
+    display:flex;
+    flex-direction:column;
+    column-gap:0;
+    gap:0;
+    margin:7em;
+    border: solid 2px #3882f6;
+    background-color:#3882f6;
+    text-align:center;
+    color:#F9FAF8;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.footer-child {
+    margin-left:3em;
+    margin-right:3em;
+    
+}
 /*BUTTONS*/
 
 .signup-main {
@@ -120,7 +182,25 @@ header a:link {
     padding:0.5em;
 }
 
-.signup-footer
+.signup-main:hover {
+    border-color:#F9FAF8;
+    background-color:#F9FAF8;
+    color:#3882f6;
+}
+
+
+.signup-footer {
+    border: solid 2px;
+    border-radius:25px;
+    border-color:#F9FAF8;
+    color:#3882f6;
+    background-color:#F9FAF8;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight:400px;
+    letter-spacing:0.1em;
+    font-size:1em;
+    padding:0.5em;
+}
 
 
 
@@ -128,4 +208,9 @@ header a:link {
 
 h2 {
     font-family: 'Yeseva One', cursive;
+}
+
+h3 {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 30px;
 }

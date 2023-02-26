@@ -17,9 +17,9 @@
         <nav>
             <div class="navbar">
                 <div class="header-logo">Header Logo</div>            
-                <div><a href="link.html">header link one</a></div>
-                <div><a href="link.html">header link two</a></div>
-                <div><a href="link.html">header link three</a></div>
+                <div class="header-links"><a href="link.html">header link one</a></div>
+                <div class="header-links"><a href="link.html">header link two</a></div>
+                <div class="header-links"><a href="link.html">header link three</a></div>
             </nav>
         </div>
 
@@ -30,31 +30,44 @@
             <div class="awesome-text">
                 <h1 class="hero-text">This website is awesome</h1>
                 <p class="subtext">This website has some subtext that goes here under the main title. It's in a smaller font and the color is lower contrast.</p>
-                <p><button class="signup-main" placeholder="Sign Up">Sign Up</button></p>
+                <button class="signup-main" placeholder="Sign Up">Sign Up</button>
 
             </div>
             <div>
-                <div class="awesome-image">
-                    <img src="img-placeholder.jpg" Alt="Image Placeholder">
+                <div class="awesome-image" width="600px">
+                    <div class="awesome-image-placeholder"></div>
                 </div>
             </div>
                 
         </div>
         
         <div class="random-information">
-            <h2>Some random random information </h2>
+            <h3>Some random random information </h3>
             <div class="random-information-box">
                 <div class="random-box"><img src="placeholder" alt="placeholder"></div>
                 <div class="random-box"><img src="placeholder" alt="placeholder"></div>
                 <div class="random-box"><img src="placeholder" alt="placeholder"></div>
                 <div class="random-box"><img src="placeholder" alt="placeholder"></div>
             </div>
+
+            <div class="random-information-box">
+                <div class="random-text">here's text underneath a picture blah blah blah</div>
+                <div class="random-text">here's some more text underneath a picture</div>
+                <div class="random-text">here's yet more bollocks</div>
+                <div class="random-text">here's text</div>
+
+
+
+            </div>
+
+
+            
         </div>
 
         <div class="quote">
             <div class="quote-child">
-            <p>This is an inspiring quote blah blah</p>
-            <p>Author</p>
+            <blockquote><p>This is an inspiring quote blah blah</p></blockquote>
+            <figcaption><p>Author</p></figcaption>
             </div>
         </div>
 
@@ -66,10 +79,11 @@
 
 
     <footer>
-        <div class="footer">
-            Call to action! It's time!
-            Sign up for our product by clicking that button right over there
-            <button>Sign Up</button>
+        <div class="flex-footer">
+            <div class="footer-child"> <h3>Call to action! It's time!</h3></div>
+            
+            <div class="footer-child"><p>Sign up for our product by clicking that button right over there</p></div>
+            <div class="footer-child"><p><button class="signup-footer">Sign Up</button></p></div>
 
         
         </div>
