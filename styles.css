@@ -37,6 +37,7 @@ header a:link:hover {
     margin: 2em;
     color:#F9FAF8;
     font-family: 'Yeseva One'; cursive;
+    letter-spacing:0.5em;
 }
 
 .header-links {
@@ -84,6 +85,12 @@ header a:link:hover {
     flex-grow:3;
     flex-basis:600px;
 
+}
+
+.awesome-image-placeholder {
+   align-items:center;
+   justify-content:center;
+   margin-left:5em;
 }
 
 .random-information {
@@ -141,7 +148,14 @@ blockquote {
     color:#1F2937;
     font-size:2em;
     font: weight 200pc;
+}
 
+figcaption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style:italic;
+    color:#1F2937;
+    font-size:1em;
+    font: weight 200pc;
 }
 
 /*FOOTER*/
