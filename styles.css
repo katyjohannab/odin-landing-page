@@ -1,11 +1,17 @@
 
+* {
+    border:0;
+    padding:0;
+}
+
+
 /*NAVBAR HEADER*/
 
 header {
     background-color:#1F2937;
-    width:100%;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 
 header a:link {
     font-size:18px;
@@ -18,13 +24,13 @@ header a:link:hover {
 }
 
 .navbar {
-    display:inline-flex;
+    display:flex;
     flex-direction:row-reverse;
-    flex-wrap:wrap;
     align-content:flex-start;
+    justify-content:center;
     background-color:#1F2937;
-    width:100%;
     height:5em;
+    width: 100%;
     
    
 }
@@ -37,9 +43,8 @@ header a:link:hover {
     color:#F9FAF8;
     font-family: 'Yeseva One'; cursive;
     letter-spacing:0.25em;
-    padding-right:45em;
-    margin-left:2em;
-    postion:absolute;
+    padding:1em;
+    flex:auto;
 }
 
 .icon {
@@ -59,6 +64,7 @@ header a:link:hover {
     font-weight:bold;
     color:#F9FAF8;
     font-family: 'Yeseva One', cursive;
+    flex:auto;
 }
 
 
@@ -73,8 +79,7 @@ header a:link:hover {
 
 .awesome-website {
     display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;    
+    flex-direction:row;     
     background-color:#1F2937;
     color:#E5E7EB;
     padding:2em;
@@ -87,15 +92,14 @@ header a:link:hover {
     font-family: 'Josefin Sans', sans-serif;
     flex:1 1 1;
     padding:2em;
-     
-
-
+    align-self:flex-end;  
+    
 }
 
 .awesome-image {
     flex:1 1 1;
     width:50%;
-    heigh:50%;
+    height:50%;
     padding:2em 7em 2em 2em;
 
 }
@@ -191,13 +195,13 @@ header a:link:hover {
     align-content:center;
     align-items:center;
     width:100%;
-    height:300px;
+    height:auto;
     text-align:center;
-         
+           
 }
 
 .quote-child {
-    flex:auto;
+    margin: 1em 11em;
 }
 
 blockquote {
@@ -239,16 +243,15 @@ figcaption {
 }
 
 .footer-child-action {
-    margin-left:3em;
+    margin-left:6em;
     margin-right:3em;
-    padding:2em;
     justify-content:flex-start;
     
 }
 
 .footer-child-button {
     margin-left:3em;
-    margin-right:3em;
+    margin-right:6em;
     margin-top:3em;
     margin-bottom:3em;
     align-items:center;
@@ -308,9 +311,8 @@ footer {
     font-family:'Josefin Sans',sans-serif;
     font-weight:400px;
     letter-spacing:0.1em;
-    font-size:1em;
-    padding:0.5em;
-    flex:auto;
+    font-size:1em;      
+    padding:1em;
 }
 
 .signup-footer:hover {
