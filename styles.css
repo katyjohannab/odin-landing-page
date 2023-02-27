@@ -84,21 +84,21 @@ header a:link:hover {
     color:#E5E7EB;
     padding:2em;
     justify-content:flex-start;
+    
 }
 
 .awesome-text {
-    width: 50%;
+    width: 30%;
     height:50%;
     font-family: 'Josefin Sans', sans-serif;
-    flex:1 1 1;
-    padding:2em;
+    margin:3em;
     align-self:flex-end;  
     
 }
 
 .awesome-image {
-    flex:1 1 1;
-    width:50%;
+    flex-shrink:1;
+    width:70%;
     height:50%;
     padding:2em 7em 2em 2em;
 
